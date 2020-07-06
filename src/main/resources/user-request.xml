@@ -1,0 +1,12 @@
+
+<!--   use this code in postman to do a post request-->
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                                     xmlns:us="http://www.hilalaissani.com/spring-soap-example">
+<soapenv:Header/>
+<soapenv:Body>
+    <us:getUserRequest>
+        <us:name>Sam</us:name>
+    </us:getUserRequest>
+</soapenv:Body>
+</soapenv:Envelope>
